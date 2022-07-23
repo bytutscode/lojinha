@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Lojinha</title>
+</head>
+<body>
+<header>
+    <div class="logo"></div>
+    <div class="menu">
+        <div class="menu-closer">❌</div>
+        <ul>
+            <a href="#"><li>Mais Vendidos</li></a>
+            <a href="#"><li>Computadores</li></a>
+            <a href="#"><li>Celulares</li></a>
+            <a href="#"><li>Variedades</li></a>
+            <a href="#"><li>Ofertas Do Dia</li></a>
+            <a href="#"><li>Atendimento Ao Cliente</li></a>
+        </ul>
+    </div>
+    <div class="search">
+    <form method="GET" action="AAA" >
+        <input autocomplete="off" type="search" name="searchInput">
+        <button type="submit">🔍</button>
+    </form></div>
+    <div class="menu-opener">
+        <div class="menu-opener-bar"></div>
+        <div class="menu-opener-bar"></div>
+        <div class="menu-opener-bar"></div>
+    </div>
+</header>
+<section class="slides">
+    <div class="controls">
+        <div onclick="prev()" class="but"><</div>
+        <div onclick="next()" class="but">></div>
+    </div>
+    <div class="slide-width">
+        <div style="background-image: url('media/slide/601300.jpg');" class="slide-bg bg-one"><div class="slide-content"><h1>Todos os produtos selecionados com <br><sup><span>10% De DESCONTO!</span></sup></h1></div></div>
+        <div style="background-image: url('media/slide/bgthree.jpg');" class="slide-bg bg-two"><div class="slide-content"><h1>QUALQUER COMPUTADOR COMPRADO VOCÊ GANHA DE BRINDE UM<br><sup><span>KIT GAMER!</span></sup></h1></div></div>
+        <div style="background-image: url('media/slide/slidetwo.jpg');" class="slide-bg bg-three"><div class="slide-content"><h1>SMARTHPHONES DE ULTIMA GERAÇÃO A PARTIR DE <br><sup><span>999 Reais!</span></sup></h1></div></div>
+    </div>
+</section>
+
+<main>
+<section class="section-pro"><div class="products"></div>
+    <div class="models">
+        
+        <div class="product">
+            <div class="product-img">
+                <img src="" alt="">
+            </div>
+            <div class="product-info">
+                <div class="product-name"></div>
+                <div class="product-price"></div>
+                <button class="buy">Saber Mais</button>
+            </div>
+        </div>
+        <div class="order">
+            <div class="order-img">
+                <img src="" alt="">
+            </div>
+            <div class="order-name">name</div>
+            <div class="modal-amount">
+                <button class="cart-qtmenos">-</button>
+                        <div class="cart-amount">1</div>
+                        <button class="cart-qtmais">+</button>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<section class="modal-section">
+    <div class="modal">
+        <div class="modal-item">
+            <div class="modal-left">
+                <div class="modal-img">
+                    <img src="media/fonejbl.jpg" alt="fone">
+                </div>
+            </div>
+            <div class="modal-right">
+                <div class="modal-name">name</div>
+                <div class="modal-desc">description</div>
+                <div class="modal-size">Tamanho:  
+                    <div data-size="small" class="size">PEQUENO</div>
+                    <div data-size="midle" class="size">MÉDIO</div>
+                    <div data-size="large" class="size selected">GRANDE</div>
+                </div>
+                <div class="modal-chose">
+                <div class="modal-price">R$00.00</div>
+                <div class="modal-amount">
+                    <button class="qtmenos">-</button>
+                            <div class="amount">1</div>
+                            <button class="qtmais">+</button>
+                </div></div>
+                <div class="modal-buttons">
+                    <a href="#cart"><button class="add-cart">Adicionar ao Carrinho</button></a>
+                    <button class="cancel">CANCELAR</button>
+                </div>
+            </div>
+            </div>
+</div>
+</section>
+
+<aside>
+    <div class="menu-closer-cart-pc">❌</div>
+    <div class="menu-closer-cart">❌</div>
+    <div id="cart" class="cart">
+        <h1>Seus Pedidos</h1>
+        <div class="orders">
+        </div>
+        <div class="subtotal">
+            <span>Subtotal</span>
+            <span>R$ --</span>
+        </div>
+        <div class="desconto">
+            <span>Desconto (-10%)</span>
+            <span style="word-wrap:normal ;">R$ --</span>
+        </div>
+        <div class="total">
+            <span>Total</span>
+            <span>R$ --</span>
+        </div>
+        <div class="finish">Finalizar compra</div>
+    </div>
+</aside>
+</main>
+<footer>
+<div class="footer">
+    <div class="footer-help">
+        <ul>
+            <a href=""><li>Trabalhe Conosco</li></a>
+            <a href=""><li>Reportar Algo</li></a>
+            <a href=""><li>Informções sobre entrega</li></a>
+            <a href=""><li>Consultar cartão</li></a>
+            <a href=""><li>Fazer pedido de reembolso</li></a>
+        </ul>
+    </div>
+    <div class="address">
+        <p>Endereço: Avenida Almirante Barroso, 11 CEP: 58013-120 | João Pessoa - PB</p>
+    </div>
+    <div class="copy">©<a href=""> Samuel Lima.</a> Todos os direitos reservados.</div>
+
+</div>
+</footer>
+
+<script src="assets/js/products.js"></script>
+<script src="assets/js/java.js"></script>
+</body>
+</html>
