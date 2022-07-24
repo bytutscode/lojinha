@@ -98,7 +98,9 @@ function getInfo () {
     let size = parseInt(c('.size.selected').getAttribute('data-key'));
     let identifier = products[modalkey].id+'@'+size;
     let key = cart.findIndex((item)=>item.identifier == identifier);
-
+    if(window.screen.width > 815) {
+        document.querySelector('aside').scrollIntoView(); 
+    }
     if(key > -1){
         cart[key].qt += modalQt;
     } else {
