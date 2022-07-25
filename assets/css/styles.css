@@ -285,6 +285,7 @@ section .products {
 }
 
 .product {
+    overflow: hidden;
     font-weight: bolder;
     width: 200px;
     height: 350px;
