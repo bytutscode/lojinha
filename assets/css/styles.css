@@ -285,7 +285,6 @@ section .products {
 }
 
 .product {
-    overflow: hidden;
     font-weight: bolder;
     width: 200px;
     height: 350px;
@@ -331,6 +330,7 @@ section .products {
 }
 .product-info {
     flex: 1;
+    border-radius: 5px;
     display: flex;
     padding: 3px;
     height: 50%;
